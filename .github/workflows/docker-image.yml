@@ -19,7 +19,7 @@ jobs:
     - name: Push Docker images
       uses: docker/build-push-action@v1.1.0
       with:
-        username: rfcm83
-        password: ${{ secrets.DOCKER_ACCESS_TOKEN }}
-        repository: rfcm83/demodockeractions
+        username: ${{ secrets.DOCKER_user }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        repository: isolee1/send
         tags: latest
