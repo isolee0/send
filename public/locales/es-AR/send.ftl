@@ -1,7 +1,7 @@
-title = Send
-importingFile = Importando…
-encryptingFile = Cifrando…
-decryptingFile = Descifrando…
+title = ArxiusFP
+importingFile = Importando...
+encryptingFile = Cifrando...
+decryptingFile = Descifrando...
 downloadCount =
     { $num ->
         [one] 1 descarga
@@ -18,40 +18,40 @@ unlockButtonLabel = Desbloquear
 downloadButtonLabel = Descargar
 downloadFinish = Descarga completa
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-sendYourFilesLink = Probá Send
-errorPageHeader = ¡Algo falló!
-fileTooBig = El archivo es demasiado grande para subir. Debería tener menos de { $size }.
-linkExpiredAlt = Enlace explirado
-notSupportedHeader = El navegador no está soportado.
-notSupportedLink = ¿Por qué mi navegador no está soportado?
-notSupportedOutdatedDetail = Desafortunadamente esta versión de Firefox no soporta la tecnología web que necesita Send. Necesitás actualizar el navegador.
+sendYourFilesLink = Prueba Send
+errorPageHeader = ¡Se ha producido un error!
+fileTooBig = Ese archivo es muy grande. Debería ocupar menos de { $size }.
+linkExpiredAlt = Enlace caducado
+notSupportedHeader = Tu navegador no es compatible.
+notSupportedLink = ¿Por qué mi navegador no es compatible?
+notSupportedOutdatedDetail = Lamentablemente, esta versión de Firefox no admite la tecnología web que impulsa ArxiusFP. Tendrás que actualizar tu navegador.
 updateFirefox = Actualizar Firefox
 deletePopupCancel = Cancelar
-deleteButtonHover = Borrar
-passwordTryAgain = Contraseña incorrecta. Intentá nuevamente.
+deleteButtonHover = Eliminar
+passwordTryAgain = Contraseña incorrecta. Inténtalo de nuevo.
 javascriptRequired = Send requiere JavaScript
-whyJavascript = ¿Por qué Send requiere Java Script?
-enableJavascript = Por favor habilite JavaScript y pruebe de nuevo.
+whyJavascript = ¿Por qué Send requiere JavaScript?
+enableJavascript = Por favor, activa JavaScript y vuelve a intentarlo.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
-expiresHoursMinutes = h { $hours } m { $minutes }
+expiresHoursMinutes = { $hours }h { $minutes }m
 # A short representation of a countdown timer containing the number of minutes remaining as digits, example "56m"
-expiresMinutes = m { $minutes }
+expiresMinutes = { $minutes }m
 # A short status message shown when the user enters a long password
 maxPasswordLength = Longitud máxima de la contraseña: { $length }
 # A short status message shown when there was an error setting the password
-passwordSetError = No se pudo establecer la contraseña
+passwordSetError = No se ha podido establecer la contraseña
 
 ## Send version 2 strings
 
--send-brand = Send
--send-short-brand = Send
+-send-brand = ArxiusFP
+-send-short-brand = Enviar
 -firefox = Firefox
 -mozilla = Mozilla
-introTitle = Intercambio de archivos sencillo y privado
-introDescription = { -send-brand } le permite compartir archivos con cifrado de extremo a extremo y un enlace que caduca automáticamente. Así puede mantener privado lo que comparte y asegurarse de que sus cosas no permanezcan en línea para siempre.
-notifyUploadEncryptDone = Su archivo está cifrado y listo para enviar
+introTitle = Compartir archivos de forma sencilla y privada
+introDescription = La Fundación Puigvert pone a su disposición un sistema de compartición de archivos con cifrado de extremo a extremo para asegurar que lo que comparta con los profesionales es privado y que el enlace se inhabilita automáticamente al cabo de un tiempo determinado. Además, el almacenamiento de los archivos se realizará en las instalaciones de la Fundación, donde se garantiza la privacidad de los datos y la preservación del cumplimiento de la GDPR.
+notifyUploadEncryptDone = El archivo está cifrado y listo para enviar
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
-archiveExpiryInfo = Vence después de { $downloadCount } o { $timespan }
+archiveExpiryInfo = Caduca tras { $downloadCount } o { $timespan }
 timespanMinutes =
     { $num ->
         [one] 1 minuto
@@ -69,7 +69,7 @@ timespanWeeks =
     }
 fileCount =
     { $num ->
-        [one] 1 file
+        [one] 1 archivo
        *[other] { $num } archivos
     }
 # byte abbreviation
@@ -85,16 +85,16 @@ fileSize = { $num }{ $units }
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 totalSize = Tamaño total: { $size }
 # the next line after the colon contains a file name
-copyLinkDescription = Copiar el enlace para compartir su archivo:
+copyLinkDescription = Copiar el enlace para compartir el archivo:
 copyLinkButton = Copiar enlace
 downloadTitle = Descargar archivos
 downloadDescription = Este archivo se compartió a través de { -send-brand } con cifrado de extremo a extremo y un enlace que caduca automáticamente.
-trySendDescription = Pruebe { -send-brand } para compartir archivos de forma sencilla y segura.
+trySendDescription = Prueba { -send-brand } para compartir archivos de forma sencilla y segura.
 # count will always be > 10
 tooManyFiles =
     { $count ->
         [one] Solo se puede subir 1 archivo a la vez.
-       *[other] Solo se pueden subir archivos { $count } a la vez.
+       *[other] Solo se pueden subir { $count } archivos a la vez.
     }
 # count will always be > 10
 tooManyArchives =
@@ -102,11 +102,11 @@ tooManyArchives =
         [one] Solo se permite 1 archivo.
        *[other] Solo se permiten { $count } archivos.
     }
-expiredTitle = Este enlace caducó.
-notSupportedDescription = { -send-brand } no funcionará con este navegador. { -send-short-brand } funciona mejor con la última versión de { -firefox }, y funcionará con la versión actual de la mayoría de los navegadores.
-downloadFirefox = Descargue { -firefox }
+expiredTitle = Este enlace ha expirado.
+notSupportedDescription = { -send-brand } no funciona con este navegador. { -send-short-brand } funciona mejor con la última versión de { -firefox }, y funciona con la última versión de la mayoría de los navegadores.
+downloadFirefox = Descargar { -firefox }
 legalTitle = Aviso de privacidad de { -send-short-brand }
-legalDateStamp = Versión 1.0, con fecha 12 de marzo de 2019.
+legalDateStamp = Versión 1.0 del 12 de marzo de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Seleccionar archivos para subir
@@ -115,35 +115,35 @@ uploadButton = Subir
 dragAndDropFiles = Arrastrar y soltar archivos
 # the second part of the string 'Drag and drop files or click to send up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-orClickWithSize = o haga clic para enviar hasta { $size }
+orClickWithSize = o hacer clic para enviar hasta { $size }
 addPassword = Proteger con contraseña
-emailPlaceholder = Ingrese su correo electrónico
+emailPlaceholder = Introducir dirección de correo
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-signInSizeBump = Inicie sesión para enviar hasta { $size }
+signInSizeBump = Iniciar sesión para enviar hasta { $size }
 signInOnlyButton = Iniciar sesión
-accountBenefitTitle = Cree una cuenta de { -firefox } o inicie la sesión
+accountBenefitTitle = Crear una cuenta { -firefox } o iniciar sesión
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-accountBenefitLargeFiles = Compartir archivos hasta { $size }
-accountBenefitDownloadCount = Compartir archivos con más personas
+accountBenefitLargeFiles = Compartir archivos de hasta { $size }
+accountBenefitDownloadCount = Compartir archivos con más gente
 accountBenefitTimeLimit =
     { $count ->
-        [one] Mantenga los enlaces activos hasta por 1 día
-       *[other] Mantenga los enlaces activos hasta por { $count } días
+        [one] Mantener enlaces activos durante 1 día
+       *[other] Mantener enlaces activos durante { $count } días
     }
-accountBenefitSync = Administre archivos compartidos desde cualquier dispositivo.
-accountBenefitMoz = Conocer sobre otros servicios de { -mozilla }
-signOut = Salir
-okButton = Aceptar
+accountBenefitSync = Administrar los archivos compartidos desde cualquier dispositivo
+accountBenefitMoz = Saber más sobre otros servicios de { -mozilla }
+signOut = Cerrar sesión
+okButton = Vale
 downloadingTitle = Descargando
-noStreamsWarning = Es posible que este navegador no pueda descifrar un archivo tan grande.
-noStreamsOptionCopy = Copiar el enlace para abrir en otro navegador.
-noStreamsOptionFirefox = Pruebe nuestro navegador favorito
-noStreamsOptionDownload = Continuar con este navegador
+noStreamsWarning = Puede que este navegador no pueda descifrar un archivo tan grande.
+noStreamsOptionCopy = Copiar el enlace para abrirlo en otro navegador
+noStreamsOptionFirefox = Probar nuestro navegador favorito
+noStreamsOptionDownload = Continuar en este navegador
 downloadFirefoxPromo = El nuevo { -firefox } te ofrece { -send-short-brand }.
 # the next line after the colon contains a file name
-shareLinkDescription = Compartir el enlace con tu dispositivo:
-shareLinkButton = Compartir el enlace
+shareLinkDescription = Compartir el enlace a tu archivo:
+shareLinkButton = Compartir enlace
 # $name is the name of the file
-shareMessage = Descargar "{ $name }" con { -send-brand }: compartir archivos de forma simple y segura
-trailheadPromo = Hay una forma de proteger tu privacidad. Unite a Firefox.
-learnMore = Conocer más.
+shareMessage = Descargar “{ $name }” con { -send-brand }: comparte archivos de forma segura y sencilla
+trailheadPromo = Existe la forma de proteger tu privacidad. Únete a Firefox.
+learnMore = Saber más.
