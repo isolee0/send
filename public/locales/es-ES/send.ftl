@@ -1,4 +1,4 @@
-title = Send
+title = ArxiusFP
 importingFile = Importando...
 encryptingFile = Cifrando...
 decryptingFile = Descifrando...
@@ -24,7 +24,7 @@ fileTooBig = Ese archivo es muy grande. Debería ocupar menos de { $size }.
 linkExpiredAlt = Enlace caducado
 notSupportedHeader = Tu navegador no es compatible.
 notSupportedLink = ¿Por qué mi navegador no es compatible?
-notSupportedOutdatedDetail = Lamentablemente, esta versión de Firefox no admite la tecnología web que impulsa ArxiusFPV. Tendrás que actualizar tu navegador.
+notSupportedOutdatedDetail = Lamentablemente, esta versión de Firefox no admite la tecnología web que impulsa ArxiusFP. Tendrás que actualizar tu navegador.
 updateFirefox = Actualizar Firefox
 deletePopupCancel = Cancelar
 deleteButtonHover = Eliminar
@@ -43,12 +43,12 @@ passwordSetError = No se ha podido establecer la contraseña
 
 ## Send version 2 strings
 
--send-brand = ArxiusFPV
+-send-brand = ArxiusFP
 -send-short-brand = Enviar
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = Compartir archivos de forma sencilla y privada
-introDescription = { -send-brand } te permite compartir archivos con cifrado de extremo a extremo y un enlace que caduca automáticamente. Así que puedes mantener lo que compartes en privado y asegurarte de que tus cosas no permanezcan en línea para siempre.
+introDescription = La Fundación Puigvert pone a su disposición un sistema de compartición de archivos con cifrado de extremo a extremo para asegurar que lo que comparta con los profesionales es privado y que el enlace se inhabilita automáticamente al cabo de un tiempo determinado. Además, el almacenamiento de los archivos se realizará en las instalaciones de la Fundación, donde se garantiza la privacidad de los datos y la preservación del cumplimiento de la GDPR.
 notifyUploadEncryptDone = El archivo está cifrado y listo para enviar
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Caduca tras { $downloadCount } o { $timespan }
