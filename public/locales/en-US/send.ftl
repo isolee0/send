@@ -1,4 +1,4 @@
-title = Send
+title = ArxiusFP
 importingFile = Importing…
 encryptingFile = Encrypting…
 decryptingFile = Decrypting…
@@ -46,13 +46,13 @@ passwordSetError = This password could not be set
 
 ## Send version 2 strings
 
--send-brand = Send
+-send-brand = ArxiusFP        
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
 
 introTitle = Simple, private file sharing
-introDescription = { -send-brand } lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.
+introDescription =The Puigvert Foundation provides you with a file sharing system with end-to-end encryption to ensure that what you share with professionals is private and that the link is automatically disabled after a certain period of time. In addition, the storage of the files will be done in the Foundation's facilities, where the privacy of the data is guaranteed and the compliance with the GDPR is preserved.
 notifyUploadEncryptDone = Your file is encrypted and ready to send
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expires after { $downloadCount } or { $timespan }
