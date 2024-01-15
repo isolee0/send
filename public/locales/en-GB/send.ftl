@@ -1,14 +1,12 @@
-title = Send
+title = ArxiusFP
 importingFile = Importing…
 encryptingFile = Encrypting…
 decryptingFile = Decrypting…
-downloadCount =
-    { $num ->
+downloadCount = { $num ->
         [one] 1 download
        *[other] { $num } downloads
     }
-timespanHours =
-    { $num ->
+timespanHours = { $num ->
         [one] 1 hour
        *[other] { $num } hours
     }
@@ -16,11 +14,11 @@ copiedUrl = Copied!
 unlockInputPlaceholder = Password
 unlockButtonLabel = Unlock
 downloadButtonLabel = Download
-downloadFinish = Download Complete
+downloadFinish = Download complete
 fileSizeProgress = ({ $partialSize } of { $totalSize })
 sendYourFilesLink = Try Send
 errorPageHeader = Something went wrong!
-fileTooBig = That file is too big to upload. It should be less than { $size }.
+fileTooBig = That file is too big to upload. It should be less than { $size }
 linkExpiredAlt = Link expired
 notSupportedHeader = Your browser is not supported.
 notSupportedLink = Why is my browser not supported?
@@ -48,39 +46,36 @@ passwordSetError = This password could not be set
 
 ## Send version 2 strings
 
--send-brand = Send
+-send-brand = ArxiusFP        
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
+
 introTitle = Simple, private file sharing
-introDescription = { -send-brand } lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.
+introDescription =The Puigvert Foundation provides you with a file sharing system with end-to-end encryption to ensure that what you share with professionals is private and that the link is automatically disabled after a certain period of time. In addition, the storage of the files will be done in the Foundation's facilities, where the privacy of the data is guaranteed and the compliance with the GDPR is preserved.
 notifyUploadEncryptDone = Your file is encrypted and ready to send
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expires after { $downloadCount } or { $timespan }
-timespanMinutes =
-    { $num ->
+timespanMinutes = { $num ->
         [one] 1 minute
        *[other] { $num } minutes
     }
-timespanDays =
-    { $num ->
+timespanDays = { $num ->
         [one] 1 day
        *[other] { $num } days
     }
-timespanWeeks =
-    { $num ->
+timespanWeeks = { $num ->
         [one] 1 week
        *[other] { $num } weeks
     }
-fileCount =
-    { $num ->
-        [one] 1 file
-       *[other] { $num } files
-    }
+fileCount = { $num ->
+    [one] 1 file
+   *[other] { $num } files
+}
 # byte abbreviation
 bytes = B
 # kibibyte abbreviation
-kb = kB
+kb = KB
 # mebibyte abbreviation
 mb = MB
 # gibibyte abbreviation
@@ -96,17 +91,15 @@ downloadTitle = Download files
 downloadDescription = This file was shared via { -send-brand } with end-to-end encryption and a link that automatically expires.
 trySendDescription = Try { -send-brand } for simple, safe file sharing.
 # count will always be > 10
-tooManyFiles =
-    { $count ->
-        [one] Only 1 file can be uploaded at a time.
-       *[other] Only { $count } files can be uploaded at a time.
-    }
+tooManyFiles = { $count ->
+     [one] Only 1 file can be uploaded at a time.
+    *[other] Only { $count } files can be uploaded at a time.
+}
 # count will always be > 10
-tooManyArchives =
-    { $count ->
-        [one] Only 1 archive is allowed.
-       *[other] Only { $count } archives are allowed.
-    }
+tooManyArchives = { $count ->
+     [one] Only 1 archive is allowed.
+    *[other] Only { $count } archives are allowed.
+}
 expiredTitle = This link has expired.
 notSupportedDescription = { -send-brand } will not work with this browser. { -send-short-brand } works best with the latest version of { -firefox }, and will work with the current version of most browsers.
 downloadFirefox = Download { -firefox }
@@ -130,11 +123,10 @@ accountBenefitTitle = Create a { -firefox } Account or sign in
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Share files up to { $size }
 accountBenefitDownloadCount = Share files with more people
-accountBenefitTimeLimit =
-    { $count ->
-        [one] Keep links active for up to 1 day
-       *[other] Keep links active for up to { $count } days
-    }
+accountBenefitTimeLimit = { $count ->
+     [one] Keep links active for up to 1 day
+    *[other] Keep links active for up to { $count } days
+}
 accountBenefitSync = Manage shared files from any device
 accountBenefitMoz = Learn about other { -mozilla } services
 signOut = Sign out
@@ -142,7 +134,7 @@ okButton = OK
 downloadingTitle = Downloading
 noStreamsWarning = This browser might not be able to decrypt a file this big.
 noStreamsOptionCopy = Copy the link to open in another browser
-noStreamsOptionFirefox = Try our favourite browser
+noStreamsOptionFirefox = Try our favorite browser
 noStreamsOptionDownload = Continue with this browser
 downloadFirefoxPromo = { -send-short-brand } is brought to you by the all-new { -firefox }.
 # the next line after the colon contains a file name
@@ -150,5 +142,4 @@ shareLinkDescription = Share the link to your file:
 shareLinkButton = Share link
 # $name is the name of the file
 shareMessage = Download “{ $name }” with { -send-brand }: simple, safe file sharing
-trailheadPromo = There is a way to protect your privacy. Join Firefox.
 learnMore = Learn more.
