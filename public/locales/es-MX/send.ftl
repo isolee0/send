@@ -18,7 +18,7 @@ unlockButtonLabel = Desbloquear
 downloadButtonLabel = Descargar
 downloadFinish = Descarga completa
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-sendYourFilesLink = Prueba Send
+sendYourFilesLink = Inicio
 errorPageHeader = ¡Se ha producido un error!
 fileTooBig = Ese archivo es muy grande. Debería ocupar menos de { $size }.
 linkExpiredAlt = Enlace caducado
@@ -89,7 +89,7 @@ copyLinkDescription = Copiar el enlace para compartir el archivo:
 copyLinkButton = Copiar enlace
 downloadTitle = Descargar archivos
 downloadDescription = Este archivo se compartió a través de { -send-brand } con cifrado de extremo a extremo y un enlace que caduca automáticamente.
-trySendDescription = Prueba { -send-brand } para compartir archivos de forma sencilla y segura.
+trySendDescription = { -send-brand } para compartir archivos de forma sencilla y segura.
 # count will always be > 10
 tooManyFiles =
     { $count ->

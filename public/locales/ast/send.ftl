@@ -89,7 +89,7 @@ copyLinkDescription = Copia l'enllaz pa compartir el ficheru:
 copyLinkButton = Copiar l'enllaz
 downloadTitle = Descarga de ficheros
 downloadDescription = Esti ficheru compartióse per { -send-brand } con cifráu puntu a puntu y un enllaz que caduca automáticamente.
-trySendDescription = Prueba { -send-brand } pa una compartición de ficheros cenciella y segura.
+trySendDescription = { -send-brand } pa una compartición de ficheros cenciella y segura.
 # count will always be > 10
 tooManyFiles =
     { $count ->

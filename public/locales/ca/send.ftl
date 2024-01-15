@@ -18,7 +18,7 @@ unlockButtonLabel = Desbloca
 downloadButtonLabel = Baixa
 downloadFinish = Ha acabat la baixada
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-sendYourFilesLink = Proveu el Send
+sendYourFilesLink = Inici
 errorPageHeader = Hi ha hagut un problema
 fileTooBig = Aquest fitxer és massa gros per pujar-lo. Ha de tenir menys de { $size }.
 linkExpiredAlt = L'enllaç ha caducat
@@ -89,7 +89,7 @@ copyLinkDescription = Copieu l'enllaç per compartir el fitxer:
 copyLinkButton = Copia l'enllaç
 downloadTitle = Baixa els fitxers
 downloadDescription = Aquest fitxer s'ha compartit mitjançant el { -send-brand } amb xifratge d'extrem a extrem i un enllaç que caduca automàticament.
-trySendDescription = Proveu el { -send-brand } per compartir fitxers de forma senzilla i privada.
+trySendDescription = { -send-brand } per compartir fitxers de forma senzilla i privada.
 # count will always be > 10
 tooManyFiles =
     { $count ->
