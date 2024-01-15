@@ -52,7 +52,7 @@ passwordSetError = This password could not be set
 -mozilla = Mozilla
 
 introTitle = Simple, private file sharing
-introDescription =The Puigvert Foundation provides you with a file sharing system with end-to-end encryption to ensure that what you share with professionals is private and that the link is automatically disabled after a certain period of time. In addition, the storage of the files will be done in the Foundation's facilities, where the privacy of the data is guaranteed and the compliance with the GDPR is preserved.
+introDescription = The Puigvert Foundation provides you with a file sharing system with end-to-end encryption to ensure that what you share with professionals is private and that the link is automatically disabled after a certain period of time. In addition, the storage of the files will be done in the Foundation's facilities, where the privacy of the data is guaranteed and the compliance with the GDPR is preserved.
 notifyUploadEncryptDone = Your file is encrypted and ready to send
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expires after { $downloadCount } or { $timespan }
