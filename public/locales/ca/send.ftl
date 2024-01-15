@@ -43,13 +43,13 @@ passwordSetError = No s'ha pogut definir la contrasenya
 
 ## Send version 2 strings
 
--send-brand = Send
--send-short-brand = Send
+-send-brand = ArxiusFP
+-send-short-brand = ArxiusFP
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = Compartició de fitxers senzilla i privada
-introDescription = El { -send-brand } permet compartir fitxers amb xifratge d'extrem a extrem mitjançant un enllaç que caduca automàticament. Per tant, us assegureu que tot allò que compartiu és privat i que no es mantindrà a Internet per sempre.
-notifyUploadEncryptDone = El fitxer s'ha xifrat i està llest per enviar-se
+introDescription = La Fundació Puigvert posa a la seva disposició un sistema de compartició d'arxius amb xifratge d'extrem a extrem per assegurar que allò que compartiu amb els professionals és privat i que l'enllaç s'inhabilita automàticament al cap d'un temps determinat. A més a més, l'emmagatzematge dels arxius es realitzarà a les instal·lacions de la Fundació, on es garanteix la privacitat de les dades, i la preservació del compliment de la GDPR.
+notifyUploadEncryptDone = El fitxer s'ha xifrat i està llest per enviar-se.
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Caduca després de { $downloadCount } o { $timespan }
 timespanMinutes =
