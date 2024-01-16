@@ -49,7 +49,7 @@ const conf = convict({
   },
   expire_times_seconds: {
     format: 'positive-int-array',
-    default: [3600, 86400, 259200, 604800],
+    default: [3600, 86400, 259200, 432000, 604800],
     env: 'EXPIRE_TIMES_SECONDS'
   },
   default_expire_seconds: {
