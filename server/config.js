@@ -49,12 +49,12 @@ const conf = convict({
   },
   expire_times_seconds: {
     format: 'positive-int-array',
-    default: [300, 3600, 86400, 604800],
+    default: [3600, 86400, 259200, 604800],
     env: 'EXPIRE_TIMES_SECONDS'
   },
   default_expire_seconds: {
     format: Number,
-    default: 86400,
+    default: 259200,
     env: 'DEFAULT_EXPIRE_SECONDS'
   },
   max_expire_seconds: {
@@ -64,22 +64,22 @@ const conf = convict({
   },
   download_counts: {
     format: 'positive-int-array',
-    default: [1, 2, 3, 4, 5, 20, 50, 100],
+    default: [1, 3, 5, 7, 15],
     env: 'DOWNLOAD_COUNTS'
   },
   default_downloads: {
     format: Number,
-    default: 1,
+    default: 3,
     env: 'DEFAULT_DOWNLOADS'
   },
   max_downloads: {
     format: Number,
-    default: 100,
+    default: 15,
     env: 'MAX_DOWNLOADS'
   },
   max_files_per_archive: {
     format: Number,
-    default: 64,
+    default: 32,
     env: 'MAX_FILES_PER_ARCHIVE'
   },
   max_archives_per_user: {
